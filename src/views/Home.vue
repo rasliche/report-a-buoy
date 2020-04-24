@@ -9,12 +9,18 @@
           nautical miles of Florida Keys National Marine Sanctuary waters.
         </p>
       </div>
-      <div class="flex justify-around">
-        <div class="rounded bg-gray-100 w-2/5">
-          <router-link to="{ name: ZoneSurfaceReport }">Zone Surface Report</router-link>
+      <div class="flex justify-around mt-16">
+        <div class="rounded bg-gray-100 w-2/5 h-64">
+          <div>
+            Zone map goes here
+          </div>
+          <router-link :to="{ name: 'ZoneSurfaceReport' }">Zone Surface Report</router-link>
         </div>
-        <div class="rounded bg-gray-100 w-2/5">
-          <router-link to="{ name: SingleBuoyReport }">Single Buoy Report</router-link>
+        <div class="rounded bg-gray-100 w-2/5 h-64">
+          <div>
+            Buoy picture goes here
+          </div>
+          <router-link :to="{ name: 'SingleBuoyReport' }">Single Buoy Report</router-link>
         </div>
       </div>
     </div>

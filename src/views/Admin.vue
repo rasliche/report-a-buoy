@@ -3,20 +3,18 @@
     <h1>Admin</h1>
     <div>
       Buoys
-      <Buoy v-for="(buoy, index) in buoyReports" :key="index" :id="buoy.id"></Buoy>
+      <div v-for="(report, index) in buoyReports" :key="index" :id="report.id">
+        {{ report }}
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import Buoy from '@/components/Buoy'
 import { mapState } from 'vuex'
 
 export default {
   name: 'Admin',
-  components: {
-    Buoy
-  },
   data() {
     return {
 

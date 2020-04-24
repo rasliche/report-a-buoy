@@ -2,7 +2,7 @@ export const namespaced = true
 
 export const state = {
     reports: [
-        { id: 'm1', bStatus: 'clean', pulStatus: 'cut', dlStatus: 'good', aStatus: 'good', date: new Date(), notes: 'n/a' },
+        { id: 'm1', bStatus: 'clean', pulStatus: 'damaged', dlStatus: 'good', aStatus: 'good', date: new Date(), notes: 'n/a' },
         { id: 'm2', bStatus: 'clean', pulStatus: 'good', dlStatus: 'good', aStatus: 'good', date: new Date(), notes: 'n/a' },
         { id: 'm4', bStatus: 'clean', pulStatus: 'good', dlStatus: 'good', aStatus: 'good', date: new Date(), notes: 'n/a' },
         { id: 'm4', bStatus: 'dirty', pulStatus: 'good', dlStatus: 'good', aStatus: 'good', date: new Date(), notes: 'n/a' },
